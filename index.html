@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vidhi Henna Studio — Bridal &amp; Party Henna Artist</title>
+  <meta name="description" content="Vidhi Henna Studio: bridal, Arabic, minimal and festive henna (mehndi) designs. View the portfolio and book your appointment online.">
+  <meta property="og:title" content="Vidhi Henna Studio">
+  <meta property="og:description" content="Handcrafted henna for brides, celebrations and everyday joy. Book your appointment online.">
+  <meta property="og:image" content="images/logo.svg">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="container nav">
+    <a href="#top" class="brand" aria-label="Vidhi Henna Studio — home">
+      <img src="images/logo.svg" alt="" width="44" height="44">
+      <span class="brand-text"><span class="brand-name">Vidhi</span><span class="brand-sub">Henna Studio</span></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav-menu" class="nav-menu">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a href="#book" class="btn btn-small">Book now</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Bridal · Arabic · Festive · Minimal</p>
+        <h1>The art of <em>henna</em>,<br>made just for you</h1>
+        <p class="lead" data-site="tagline"></p>
+        <div class="hero-actions">
+          <a href="#book" class="btn">Book an appointment</a>
+          <a href="#portfolio" class="btn btn-ghost">View portfolio</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <img src="images/logo.svg" alt="" class="hero-mandala">
+      </div>
+    </div>
+    <div class="divider" aria-hidden="true"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container about">
+      <div class="about-badge" aria-hidden="true">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <div>
+        <p class="eyebrow">About the studio</p>
+        <h2>Every design tells a story</h2>
+        <p>At <strong data-site="studioName"></strong>, each design is drawn freehand and tailored to you — your outfit, your occasion and your story. From grand bridal hands filled with tiny details to a simple fingertip pattern for a weekend party, we bring the same care to every booking.</p>
+        <ul class="feature-list">
+          <li><span>🌿</span> 100% natural, chemical-free henna paste for a rich, dark stain</li>
+          <li><span>✨</span> Custom designs — names, portraits and personal motifs</li>
+          <li><span>🏠</span> Appointments at the studio or at your home / venue</li>
+          <li><span>👰</span> Bridal packages for the bride, family and guests</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section section-tint">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">What we offer</p>
+        <h2>Services</h2>
+      </div>
+      <div class="services-grid" id="services-grid"></div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Past work</p>
+        <h2>Portfolio</h2>
+        <p class="muted">A few of our favourite designs. Tap any picture to see it larger.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter portfolio">
+        <button class="filter is-active" data-filter="all">All</button>
+        <button class="filter" data-filter="bridal">Bridal</button>
+        <button class="filter" data-filter="arabic">Arabic</button>
+        <button class="filter" data-filter="minimal">Minimal</button>
+        <button class="filter" data-filter="festive">Festive</button>
+        <button class="filter" data-filter="kids">Kids</button>
+      </div>
+      <div class="gallery" id="gallery"></div>
+      <p class="center more-link">More designs on Instagram — <a data-site-link="instagram" target="_blank" rel="noopener"></a></p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS (hidden until reviews are added in js/config.js) -->
+  <section id="reviews" class="section section-tint" hidden>
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Kind words</p>
+        <h2>What our clients say</h2>
+      </div>
+      <div class="reviews-grid" id="reviews-grid"></div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="book" class="section section-dark">
+    <div class="container book">
+      <div class="book-intro">
+        <p class="eyebrow">Reserve your date</p>
+        <h2>Book an appointment</h2>
+        <p>Fill in the form and send it to us on WhatsApp or email. We'll confirm your slot and share the details within a few hours.</p>
+        <p>Bridal dates fill up fast — we recommend booking <strong>4–8 weeks ahead</strong> of the wedding.</p>
+        <ul class="book-steps">
+          <li><span>1</span> Fill in your details</li>
+          <li><span>2</span> Send on WhatsApp or email</li>
+          <li><span>3</span> We confirm your booking</li>
+        </ul>
+      </div>
+      <form id="booking-form" class="booking-form" novalidate>
+        <div class="field">
+          <label for="b-name">Your name *</label>
+          <input id="b-name" name="name" type="text" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="b-phone">Phone number *</label>
+          <input id="b-phone" name="phone" type="tel" autocomplete="tel" required>
+        </div>
+        <div class="field">
+          <label for="b-service">Service *</label>
+          <select id="b-service" name="service" required>
+            <option value="">Choose a service</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="b-people">Number of people</label>
+          <input id="b-people" name="people" type="number" min="1" value="1">
+        </div>
+        <div class="field">
+          <label for="b-date">Preferred date *</label>
+          <input id="b-date" name="date" type="date" required>
+        </div>
+        <div class="field">
+          <label for="b-time">Preferred time</label>
+          <select id="b-time" name="time">
+            <option>Morning (9 AM – 12 PM)</option>
+            <option>Afternoon (12 PM – 4 PM)</option>
+            <option>Evening (4 PM – 8 PM)</option>
+          </select>
+        </div>
+        <div class="field field-full">
+          <span class="label">Where?</span>
+          <div class="radio-row">
+            <label><input type="radio" name="location" value="At the studio" checked> At the studio</label>
+            <label><input type="radio" name="location" value="Home / venue visit"> Home / venue visit</label>
+          </div>
+        </div>
+        <div class="field field-full">
+          <label for="b-notes">Anything else? (design ideas, venue address, event date…)</label>
+          <textarea id="b-notes" name="notes" rows="3"></textarea>
+        </div>
+        <p class="form-error field-full" id="form-error" role="alert"></p>
+        <div class="form-actions field-full">
+          <button type="submit" class="btn btn-whatsapp" data-send="whatsapp">Send on WhatsApp</button>
+          <button type="submit" class="btn btn-ghost-light" data-send="email">Send by email</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact">
+      <div>
+        <p class="eyebrow">Get in touch</p>
+        <h2>Contact us</h2>
+        <ul class="contact-list">
+          <li><span class="ci">📞</span><div><strong>Phone</strong><a data-site-link="phone"></a></div></li>
+          <li><span class="ci">💬</span><div><strong>WhatsApp</strong><a data-site-link="whatsapp" target="_blank" rel="noopener">Chat with us</a></div></li>
+          <li><span class="ci">✉️</span><div><strong>Email</strong><a data-site-link="email"></a></div></li>
+          <li><span class="ci">📸</span><div><strong>Instagram</strong><a data-site-link="instagram" target="_blank" rel="noopener"></a></div></li>
+          <li><span class="ci">📍</span><div><strong>Studio</strong><span data-site="address"></span></div></li>
+        </ul>
+      </div>
+      <div class="hours-card">
+        <h3>Opening hours</h3>
+        <table class="hours" id="hours"></table>
+        <div class="map" id="map" hidden></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="#top" class="brand brand-light">
+      <img src="images/logo.svg" alt="" width="40" height="40">
+      <span class="brand-text"><span class="brand-name">Vidhi</span><span class="brand-sub">Henna Studio</span></span>
+    </a>
+    <p>© <span id="year"></span> <span data-site="studioName"></span>. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp button -->
+<a class="wa-float" data-site-link="whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1.1-1.1 2.7s1.2 3.2 1.3 3.4c.2.2 2.3 3.5 5.6 4.9 2.1.9 2.9 1 4 .8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+</a>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Portfolio image">
+  <button class="lb-close" aria-label="Close">×</button>
+  <button class="lb-prev" aria-label="Previous image">‹</button>
+  <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
+  <button class="lb-next" aria-label="Next image">›</button>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
