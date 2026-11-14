@@ -105,16 +105,11 @@
     });
   }
 
-  // ---- Hours & map ----
+  // ---- Hours ----
   var hours = $("#hours");
   (S.hours || []).forEach(function (h) {
     hours.insertAdjacentHTML("beforeend", "<tr><td>" + esc(h[0]) + "</td><td>" + esc(h[1]) + "</td></tr>");
   });
-  if (S.mapEmbedUrl) {
-    var map = $("#map");
-    map.innerHTML = '<iframe src="' + esc(S.mapEmbedUrl) + '" loading="lazy" title="Studio location" referrerpolicy="no-referrer-when-downgrade"></iframe>';
-    map.hidden = false;
-  }
 
   // ---- Booking form ----
   var form = $("#booking-form"), err = $("#form-error"), dateInput = $("#b-date");
@@ -150,7 +145,6 @@
       "Number of people: " + (d.get("people") || 1),
       "Date: " + date,
       "Time: " + d.get("time"),
-      "Location: " + d.get("location"),
     ];
     if (d.get("notes").trim()) msg.push("Notes: " + d.get("notes").trim());
     var text = msg.join("\n");

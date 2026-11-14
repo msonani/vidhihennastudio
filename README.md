@@ -10,24 +10,23 @@ Almost everything is in **`js/config.js`**:
 
 | What | Where in `js/config.js` |
 |---|---|
-| Phone, WhatsApp, email, Instagram, address | top of the file |
-| Opening hours | `hours` |
+| Phone, WhatsApp, email, Instagram | top of the file |
+| Availability hours | `hours` |
 | Services and prices | `services` |
 | Portfolio photos | `portfolio` |
 | Client reviews | `testimonials` (section is hidden while empty) |
-| Google Map | `mapEmbedUrl` (Google Maps → Share → Embed a map → copy the `src` link) |
 
 ### Adding portfolio photos
 
 1. Upload your photos to `images/portfolio/` (portrait JPGs around 1200px tall work best).
 2. Add a line for each in `portfolio`, e.g.
    `{ src: "images/portfolio/bride-priya.jpg", title: "Bridal full hands", category: "bridal" },`
-3. Categories: `bridal`, `arabic`, `minimal`, `festive`, `kids`.
+3. Categories: `bridal`, `minimal`, `festive`, `kids`.
 4. Delete the sample `.svg` entries and files.
 
 ## How booking works
 
-The booking form puts the client's details into a ready-made message and opens WhatsApp (or their email app) addressed to the studio. The client taps Send, and you confirm the slot.
+The booking form puts the client's details into a ready-made message and opens WhatsApp (or their email app) addressed to you. The client taps Send, and you confirm the slot.
 
 ## Publishing with GitHub Pages
 
