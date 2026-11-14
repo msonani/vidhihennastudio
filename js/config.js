@@ -22,13 +22,13 @@ window.SITE = {
     ["Bridal bookings", "By appointment"],
   ],
 
-  // ---- Services & prices (REPLACE THE PRICES) ----
+  // ---- Services & prices (SAMPLE PRICES IN CAD — REPLACE WITH YOUR OWN) ----
   services: [
-    { name: "Bridal Henna", price: "From ₹ ____", desc: "Full hands and feet with intricate traditional detailing, portraits and personalised motifs." },
-    { name: "Engagement & Sangeet", price: "From ₹ ____", desc: "Elegant designs for the bride-to-be and family on your special pre-wedding days." },
-    { name: "Minimal & Modern", price: "From ₹ ____", desc: "Delicate finger tips, mandalas and fine-line patterns for an everyday look." },
-    { name: "Festive & Party", price: "From ₹ ____", desc: "Karwa Chauth, Teej, Eid, Diwali and party guests — group bookings welcome." },
-    { name: "Kids Henna", price: "From ₹ ____", desc: "Cute, simple designs made with natural, skin-friendly henna paste." },
+    { name: "Bridal Henna", price: "From CA$250", desc: "Full hands and feet with intricate traditional detailing, portraits and personalised motifs." },
+    { name: "Engagement & Sangeet", price: "From CA$80", desc: "Elegant designs for the bride-to-be and family on your special pre-wedding days." },
+    { name: "Minimal & Modern", price: "From CA$20", desc: "Delicate finger tips, mandalas and fine-line patterns for an everyday look." },
+    { name: "Festive & Party", price: "From CA$15 per person", desc: "Karwa Chauth, Teej, Eid, Diwali and party guests — group bookings welcome." },
+    { name: "Kids Henna", price: "From CA$10", desc: "Cute, simple designs made with natural, skin-friendly henna paste." },
   ],
 
   // ---- Portfolio ----
