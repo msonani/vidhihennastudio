@@ -11,7 +11,7 @@ window.SITE = {
   tagline: "Handcrafted henna for brides, celebrations and everyday joy",
 
   // ---- Contact details (REPLACE THESE) ----
-  phone: "+1 306 351 4192",           // shown on the site and used for "Call" links
+  phone: "+13063514192",              // shown on the site and used for "Call" links
   whatsapp: "13063514192",           // country code + number, digits only, no + or spaces
   email: "meetsonani01@gmail.com",
   instagram: "vm_mahendi",           // username only, without @
